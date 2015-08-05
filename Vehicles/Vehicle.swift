@@ -21,9 +21,9 @@ class Vehicle {
         var details = "Basic vehicle details: \n\n"
         details += "Brand name: \(brandName)\n"
         details += "Model name: \(modelName)\n"
-        details += "Model year: \(vehicle.modelYear)\n"
-        details += "Power source: \(vehicle.powerSource)\n"
-        details += "# of wheels: \(vehicle.numberOfWheels)\n"
+        details += "Model year: \(modelYear)\n"
+        details += "Power source: \(powerSource)\n"
+        details += "# of wheels: \(numberOfWheels)\n"
         return details
     }
     

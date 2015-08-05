@@ -23,14 +23,8 @@ class VehicleDetailViewController: UIViewController {
     // Update the user interface for the detail item.
     if let vehicle = detailVehicle {
       title = vehicle.vehicleTitle
-        var basicDetails = "Basic vehicle details: \n\n"
-        basicDetails += "Brand name: \(vehicle.brandName)\n"
-        basicDetails += "Model name: \(vehicle.modelName)\n"
-        basicDetails += "Model year: \(vehicle.modelYear)\n"
-        basicDetails += "Power source: \(vehicle.powerSource)\n"
-        basicDetails += "# of wheels: \(vehicle.numberOfWheels)\n"
         
-        detailDescriptionLabel?.text = basicDetails
+        detailDescriptionLabel?.text = vehicle.vehicleDetails
     }
   }
   

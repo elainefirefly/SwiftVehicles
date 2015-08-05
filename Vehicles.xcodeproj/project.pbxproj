@@ -14,6 +14,7 @@
 		5DC89C6D19BE274D00A75324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC89C6C19BE274D00A75324 /* Images.xcassets */; };
 		5DC89C7919BE274D00A75324 /* VehiclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC89C7819BE274D00A75324 /* VehiclesTests.swift */; };
 		5DC89C8319BE289D00A75324 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC89C8219BE289D00A75324 /* Vehicle.swift */; };
+		C684F1521B7207E000A5C1DD /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C684F1511B7207E000A5C1DD /* Motorcycle.swift */; };
 		C695386D1B67759600E70441 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C695386C1B67759600E70441 /* Car.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		5DC89C7719BE274D00A75324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DC89C7819BE274D00A75324 /* VehiclesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesTests.swift; sourceTree = "<group>"; };
 		5DC89C8219BE289D00A75324 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		C684F1511B7207E000A5C1DD /* Motorcycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
 		C695386C1B67759600E70441 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 				5DC89C8219BE289D00A75324 /* Vehicle.swift */,
 				5DC89C6719BE274D00A75324 /* VehicleDetailViewController.swift */,
 				C695386C1B67759600E70441 /* Car.swift */,
+				C684F1511B7207E000A5C1DD /* Motorcycle.swift */,
 				5DC89C6919BE274D00A75324 /* Main.storyboard */,
 				5DC89C6C19BE274D00A75324 /* Images.xcassets */,
 				5DC89C6119BE274D00A75324 /* Supporting Files */,
@@ -221,6 +224,7 @@
 				5DC89C6819BE274D00A75324 /* VehicleDetailViewController.swift in Sources */,
 				C695386D1B67759600E70441 /* Car.swift in Sources */,
 				5DC89C6619BE274D00A75324 /* VehicleListTableViewController.swift in Sources */,
+				C684F1521B7207E000A5C1DD /* Motorcycle.swift in Sources */,
 				5DC89C6419BE274D00A75324 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,12 +18,12 @@ class VehicleListTableViewController: UITableViewController {
         title = "Vehicles"
     }
     
-    //MARK: - Data setup
+    // MARK: - Data setup
     func setupVehicleArray() {
-        //Clear the array. (Start from scratch)
+        // Clear the array. (Start from scratch)
         vehicles.removeAll(keepCapacity: true)
         
-        //Create a car.
+        // Create a car.
         var mustang = Car()
         mustang.brandName = "Ford"
         mustang.modelName = "Mustang"
@@ -34,7 +34,7 @@ class VehicleListTableViewController: UITableViewController {
         mustang.numberOfDoors = 2
         mustang.powerSource = "gas engine"
         
-        //Add it to the array
+        // Add it to the array
         vehicles.append(mustang)
         
         var outback = Car()
@@ -47,7 +47,7 @@ class VehicleListTableViewController: UITableViewController {
         outback.numberOfDoors = 5
         outback.powerSource = "gas engine"
         
-        //Add it to the array
+        // Add it to the array
         vehicles.append(outback)
         
         var prius = Car()
@@ -62,7 +62,27 @@ class VehicleListTableViewController: UITableViewController {
         
         vehicles.append(prius)
         
-        //Sort the array by the model year
+        var harley = Motorcycle()
+        harley.brandName = "Harley-Davidson"
+        harley.modelName = "Softail"
+        harley.modelYear = 1979
+        harley.engineNoise = "Vrrrrrrooooooooooooom!"
+        
+        // Add it to the array
+        vehicles.append(harley)
+        
+        // Create another motorcycle
+        var kawasaki = Motorcycle()
+        
+        kawasaki.brandName = "Kawasaki"
+        kawasaki.modelName = "Ninja"
+        kawasaki.modelYear = 2005
+        kawasaki.engineNoise = "Neeeeeeeeeeeeeeeeeow!"
+        
+        // Add it to the array
+        vehicles.append(kawasaki)
+        
+        // Sort the array by the model year
         vehicles.sort{ $0.modelYear < $1.modelYear }
     }
 
