@@ -90,11 +90,11 @@
 				5DC89C8219BE289D00A75324 /* Vehicle.swift */,
 				5DC89C6719BE274D00A75324 /* VehicleDetailViewController.swift */,
 				C695386C1B67759600E70441 /* Car.swift */,
+				C6EBEE641B7358C300538EFD /* Truck.swift */,
 				C684F1511B7207E000A5C1DD /* Motorcycle.swift */,
 				5DC89C6919BE274D00A75324 /* Main.storyboard */,
 				5DC89C6C19BE274D00A75324 /* Images.xcassets */,
 				5DC89C6119BE274D00A75324 /* Supporting Files */,
-				C6EBEE641B7358C300538EFD /* Truck.swift */,
 			);
 			path = Vehicles;
 			sourceTree = "<group>";
