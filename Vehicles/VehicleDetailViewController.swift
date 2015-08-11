@@ -34,7 +34,10 @@ class VehicleDetailViewController: UIViewController {
   }
 
   @IBAction func goForward(sender: AnyObject) {
-    // TODO: Fill this in.
+    if let vehicle = detailVehicle {
+        let controller = UIAlertController.alertControllerWithTitle("Go Forward", message: vehicle.goForward())
+        presentViewController(controller, animated: true) {}
+    }
   }
   
   @IBAction func goBackward(sender: AnyObject) {

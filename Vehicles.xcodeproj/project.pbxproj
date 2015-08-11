@@ -16,6 +16,7 @@
 		5DC89C8319BE289D00A75324 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC89C8219BE289D00A75324 /* Vehicle.swift */; };
 		C684F1521B7207E000A5C1DD /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C684F1511B7207E000A5C1DD /* Motorcycle.swift */; };
 		C695386D1B67759600E70441 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C695386C1B67759600E70441 /* Car.swift */; };
+		C6E6C02A1B7A5F5600F1D8A6 /* UIAlertController+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E6C0291B7A5F5600F1D8A6 /* UIAlertController+Convenience.swift */; };
 		C6EBEE651B7358C300538EFD /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EBEE641B7358C300538EFD /* Truck.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		5DC89C8219BE289D00A75324 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		C684F1511B7207E000A5C1DD /* Motorcycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
 		C695386C1B67759600E70441 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		C6E6C0291B7A5F5600F1D8A6 /* UIAlertController+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Convenience.swift"; path = "../UIAlertController+Convenience.swift"; sourceTree = "<group>"; };
 		C6EBEE641B7358C300538EFD /* Truck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				C695386C1B67759600E70441 /* Car.swift */,
 				C6EBEE641B7358C300538EFD /* Truck.swift */,
 				C684F1511B7207E000A5C1DD /* Motorcycle.swift */,
+				C6E6C0291B7A5F5600F1D8A6 /* UIAlertController+Convenience.swift */,
 				5DC89C6919BE274D00A75324 /* Main.storyboard */,
 				5DC89C6C19BE274D00A75324 /* Images.xcassets */,
 				5DC89C6119BE274D00A75324 /* Supporting Files */,
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E6C02A1B7A5F5600F1D8A6 /* UIAlertController+Convenience.swift in Sources */,
 				5DC89C8319BE289D00A75324 /* Vehicle.swift in Sources */,
 				5DC89C6819BE274D00A75324 /* VehicleDetailViewController.swift in Sources */,
 				C695386D1B67759600E70441 /* Car.swift in Sources */,
