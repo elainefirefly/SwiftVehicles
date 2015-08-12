@@ -36,7 +36,7 @@ class VehicleDetailViewController: UIViewController {
   @IBAction func goForward(sender: AnyObject) {
     if let vehicle = detailVehicle {
         let controller = UIAlertController.alertControllerWithTitle("Go Forward", message: vehicle.goForward())
-        presentViewController(controller, animated: true) {}
+        presentViewController(controller, animated:true) {}
     }
   }
   
@@ -47,7 +47,10 @@ class VehicleDetailViewController: UIViewController {
   }
   
   @IBAction func stopMoving(sender: AnyObject) {
-    // TODO: Fill this in.
+    if let vehicle = detailVehicle {
+        let controller = UIAlertController .alertControllerWithTitle("Stop moving", message: vehicle.stopMoving())
+        presentViewController(controller, animated:true) {}
+    }
   }
   
   @IBAction func turn(sender: AnyObject) {
@@ -55,7 +58,9 @@ class VehicleDetailViewController: UIViewController {
   }
   
   @IBAction func makeNoise(sender: AnyObject) {
-    // TODO: Fill this in.
+    if let vehicle = detailVehicle {
+        let controller = UIAlertController .alertControllerWithTitle("Make Some Noise!", message: vehicle.makeNoise())
+        presentViewController(controller, animated: true) {}
+    }
   }
-  
 }
