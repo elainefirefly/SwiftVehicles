@@ -44,11 +44,14 @@ class Car: Vehicle {
         return carDetails
     }
     
-    override init() {
-        super.init()
-        numberOfWheels = 4
+    init(brandName: String, modelName: String, modelYear: Int, powerSource: String, isConvertible: Bool, isHatchback: Bool, hasSunroof: Bool, numberOfDoors: Int) {
+        self.isConvertible = isConvertible
+        self.isHatchback = isHatchback
+        self.hasSunroof = hasSunroof
+        self.numberOfDoors = numberOfDoors
+        
+        super.init(brandName: brandName, modelName: modelName, modelYear: modelYear, powerSource:powerSource, numberOfWheels: 4)
     }
-    
     //MARK: - Private method implementations
     private func start() -> String {
         return String(format: "Start power source %@.", powerSource)
