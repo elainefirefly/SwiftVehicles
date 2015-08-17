@@ -10,10 +10,10 @@ import Foundation
 
 class Car: Vehicle {
     
-    var isConvertible:Bool = false
-    var isHatchback:Bool = false
-    var hasSunroof:Bool = false
-    var numberOfDoors:Int = 0
+    let isConvertible:Bool
+    let isHatchback:Bool
+    let hasSunroof:Bool
+    let numberOfDoors:Int
     
     override var vehicleDetails: String {
         // Get basic details from superclass
