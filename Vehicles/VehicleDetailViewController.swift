@@ -41,9 +41,10 @@ class VehicleDetailViewController: UIViewController {
   }
   
   @IBAction func goBackward(sender: AnyObject) {
-    // TODO: Fill this in.
-    
-    //Let's just do this to create conflict
+    if let vehicle = detailVehicle {
+        let controller = UIAlertController .alertControllerWithTitle("Go Backward", message: vehicle.goBackward())
+        presentViewController(controller, animated:true) {}
+    }
   }
   
   @IBAction func stopMoving(sender: AnyObject) {
