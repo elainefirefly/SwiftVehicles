@@ -27,6 +27,18 @@ class Vehicle {
         return details
     }
     
+    // Mark: - Initialization Methods
+    
+    init() {}
+    
+    init(brandName:String, modelName:String, modelYear:Int, powerSource:String, numberOfWheels:Int) {
+        self.brandName = brandName
+        self.modelName = modelName
+        self.modelYear = modelYear
+        self.powerSource = powerSource
+        self.numberOfWheels = numberOfWheels
+    }
+    
     func goForward() -> String {
         return "null"
     }

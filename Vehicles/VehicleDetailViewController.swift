@@ -55,7 +55,16 @@ class VehicleDetailViewController: UIViewController {
   }
   
   @IBAction func turn(sender: AnyObject) {
-    //TODO: Fill this in.
+    if let vehicle = detailVehicle {
+        let controller = UIAlertController.alertControllerWithNumberInput(title: "Turn", message: "Enter number of degree to turn:", buttonTitle: "Go!") {
+            integerValue in
+            if let value = integerValue {
+                let controller = UIAlertController.alertControllerWithTitle("Turn", message: vehicle.turn(value))
+                self.presentViewController(controller, animated:true, completion:nil)
+            }
+        }
+        presentViewController(controller, animated: true) {}
+    }
   }
   
   @IBAction func makeNoise(sender: AnyObject) {
