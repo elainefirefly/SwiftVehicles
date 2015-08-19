@@ -24,84 +24,40 @@ class VehicleListTableViewController: UITableViewController {
         vehicles.removeAll(keepCapacity: true)
         
         // Create a car.
-        var mustang = Car()
-        mustang.brandName = "Ford"
-        mustang.modelName = "Mustang"
-        mustang.modelYear = 1968
-        mustang.isConvertible = true
-        mustang.isHatchback = false
-        mustang.hasSunroof = false
-        mustang.numberOfDoors = 2
-        mustang.powerSource = "gas engine"
+        var mustang = Car(brandName: "Ford", modelName: "Mustang", modelYear: 1968, powerSource: "gas engine", isConvertible: true, isHatchback: false, hasSunroof: false, numberOfDoors: 2)
         
         // Add it to the array
         vehicles.append(mustang)
         
-        var outback = Car()
-        outback.brandName = "Subaru"
-        outback.modelName = "Outback"
-        outback.modelYear = 1999
-        outback.isConvertible = false
-        outback.isHatchback = true
-        outback.hasSunroof = false
-        outback.numberOfDoors = 5
-        outback.powerSource = "gas engine"
+        // Create another car
+        var outback = Car(brandName: "Subaru", modelName: "Outback", modelYear: 1999, powerSource: "gas engine", isConvertible: false, isHatchback: true, hasSunroof: false, numberOfDoors: 5)
         
         // Add it to the array
         vehicles.append(outback)
         
-        var prius = Car()
-        prius.brandName = "Toyota"
-        prius.modelName = "Prius"
-        prius.modelYear = 2002
-        prius.hasSunroof = true
-        prius.isConvertible = false
-        prius.isHatchback = true
-        prius.numberOfDoors = 4
-        prius.powerSource = "hybrid engine"
+        var prius = Car(brandName: "Toyota", modelName: "Prius", modelYear: 2002, powerSource: "hybrid engine", isConvertible: false, isHatchback: true, hasSunroof: true, numberOfDoors: 4)
         
         vehicles.append(prius)
         
-        var harley = Motorcycle()
-        harley.brandName = "Harley-Davidson"
-        harley.modelName = "Softail"
-        harley.modelYear = 1979
-        harley.engineNoise = "Vrrrrrrooooooooooooom!"
+        var harley = Motorcycle(brandName: "Harley-Davidson", modelName: "Softail", modelYear: 1979, engineNoise: "Vrrrrrrrroooooooooooooom!")
         
         // Add it to the array
         vehicles.append(harley)
         
         // Create another motorcycle
-        var kawasaki = Motorcycle()
-        
-        kawasaki.brandName = "Kawasaki"
-        kawasaki.modelName = "Ninja"
-        kawasaki.modelYear = 2005
-        kawasaki.engineNoise = "Neeeeeeeeeeeeeeeeeow!"
+        var kawasaki = Motorcycle(brandName: "Kawasaki", modelName: "Ninja", modelYear: 2005, engineNoise: "Neeeeeeeeeeeow!")
         
         // Add it to the array
         vehicles.append(kawasaki)
         
         //Create a truck
-        var silverado = Truck()
-        silverado.brandName = "Chevrolet"
-        silverado.modelName = "Silverado"
-        silverado.modelYear = 2011
-        silverado.numberOfWheels = 4
-        silverado.cargoCapacityCubicFeet = 53
-        silverado.powerSource = "gas engine"
+        var silverado = Truck(brandName: "Chevrolet", modelName: "Silverado", modelYear: 2011, powerSource: "gas engine", numberOfWheels: 4, cargoCapacityCubicFeet: 53)
         
         // Add it to the array
         vehicles.append(silverado)
         
         // Creat another truck
-        var eighteenWheeler = Truck()
-        eighteenWheeler.brandName = "Peterbilt"
-        eighteenWheeler.modelName = "579"
-        eighteenWheeler.modelYear = 2013
-        eighteenWheeler.numberOfWheels = 18
-        eighteenWheeler.cargoCapacityCubicFeet = 408
-        eighteenWheeler.powerSource = "diesel engine"
+        var eighteenWheeler = Truck(brandName: "Peterbilt", modelName: "579", modelYear: 2013, powerSource: "diesel engine", numberOfWheels: 18, cargoCapacityCubicFeet: 408)
         
         // Add it to the array
         vehicles.append(eighteenWheeler)
