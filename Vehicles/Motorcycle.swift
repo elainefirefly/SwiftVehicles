@@ -48,6 +48,4 @@ class Motorcycle : Vehicle {
     override func makeNoise() -> String {
         return self.engineNoise
     }
-    
-    
 }

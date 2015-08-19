@@ -9,7 +9,8 @@
 import Foundation
 
 class Truck: Vehicle {
-    var cargoCapacityCubicFeet: Int = 0
+    
+    let cargoCapacityCubicFeet: Int
     
     override var vehicleDetails: String {
         // Get basic details from superclass
@@ -26,6 +27,14 @@ class Truck: Vehicle {
         
         return truckDetails
     }
+    // Mark - Initialization Methods
+    
+    init(brandName: String, modelName: String, modelYear: Int, powerSource: String, numberOfWheels: Int, cargoCapacityCubicFeet: Int) {
+        self.cargoCapacityCubicFeet = cargoCapacityCubicFeet
+        super.init(brandName: brandName, modelName: modelName, modelYear: modelYear, powerSource: powerSource, numberOfWheels: numberOfWheels)
+    }
+    
+    
     
     // Mark: - Supercalass overrides
     override func goForward() -> String {

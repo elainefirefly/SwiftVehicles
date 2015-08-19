@@ -15,18 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    var vehicle = Vehicle()
-    
-    println("Vehicle turn: \(vehicle.turn(700))")
-    var changeGearResult = vehicle.changeGears("Test")
-    println("Vehicle change gears: \(changeGearResult)")
-    
-    println("Vehicle make noise: \(vehicle.makeNoise())")
-    println("Vehicle go forward: \(vehicle.goForward())")
-    println("Vehicle go backward: \(vehicle.goBackward())")
-    println("Vehicle stop moving: \(vehicle.stopMoving())")
-    
-    return true
+      return true
   }
   
   func applicationWillResignActive(application: UIApplication) {

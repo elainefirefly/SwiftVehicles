@@ -9,11 +9,11 @@
 import Foundation
 
 class Vehicle {
-    var brandName = "null"
-    var modelName = "null"
-    var modelYear = 0
-    var powerSource = "null"
-    var numberOfWheels = 0
+    let brandName: String
+    let modelName: String
+    let modelYear: Int
+    let powerSource: String
+    let numberOfWheels: Int
     var vehicleTitle: String {
         return String(format:"%d %@ %@", modelYear, brandName, modelName)
     }
@@ -29,9 +29,7 @@ class Vehicle {
     
     // Mark: - Initialization Methods
     
-    init() {}
-    
-    init(brandName:String, modelName:String, modelYear:Int, powerSource:String, numberOfWheels:Int) {
+    init(brandName: String, modelName: String, modelYear: Int, powerSource: String, numberOfWheels: Int) {
         self.brandName = brandName
         self.modelName = modelName
         self.modelYear = modelYear
