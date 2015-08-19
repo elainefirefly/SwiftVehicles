@@ -9,7 +9,7 @@
 import Foundation
 
 class Motorcycle : Vehicle {
-    var engineNoise = ""
+    let engineNoise:String
     
     override var vehicleDetails: String {
         // Get basic details from superclass
@@ -26,10 +26,11 @@ class Motorcycle : Vehicle {
         return motorcycleDetails
     }
     
-    override init() {
-        super.init()
-        numberOfWheels = 2
-        powerSource = "gas engine"
+    init(brandName:String, modelName:String, modelYear:Int, engineNoise:String) {
+        
+        self.engineNoise = engineNoise
+        
+        super.init(brandName:brandName, modelName:modelName, modelYear:modelYear, powerSource:"gas engine", numberOfWheels:2)
     }
     // MARK: - Superclass Overrides
     override func  goForward() -> String {
