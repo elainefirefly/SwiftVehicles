@@ -32,6 +32,13 @@ class VehicleDetailViewController: UIViewController {
     super.viewDidLoad()
     configureView()
   }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        if let vehicle = detailVehicle {
+            println(vehicle)
+        }
+    }
 
   @IBAction func goForward(sender: AnyObject) {
     if let vehicle = detailVehicle {

@@ -69,3 +69,11 @@ class Vehicle {
     }
 }
 
+// Mark: - An extension to make Vehicle printable
+
+extension Vehicle: Printable {
+    var description: String {
+        return vehicleTitle + "\n" + vehicleDetails
+    }
+}
+

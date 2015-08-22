@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C217C2E4-B70E-42FA-AB90-143AA42F14A8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Vehicles</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>986462EEA3B691A9413B701B53AF48BC27354866</key>
 		<string>github.com:elainefirefly/SwiftVehicles.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Vehicles.xcodeproj/project.xcworkspace</string>
+	<string>Vehicles.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>986462EEA3B691A9413B701B53AF48BC27354866</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>986462EEA3B691A9413B701B53AF48BC27354866</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Vehicles</string>
+			<string>SwiftVehicles</string>
 		</dict>
 	</array>
 </dict>
